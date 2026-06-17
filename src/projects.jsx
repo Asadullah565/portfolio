@@ -1,6 +1,6 @@
 import tipcalculator from "./assets/tipcalculator.png";
 import bank from "./assets/bank.png";
-import medicare from "./assets/medicare.png";
+import medicare from "./assets/Medicare.png";
 function Projects() {
   const projects = [
     {
