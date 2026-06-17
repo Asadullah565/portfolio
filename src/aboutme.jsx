@@ -1,3 +1,4 @@
+import person2 from "./assets/person2.png";
 function About() {
   return (
     <section
@@ -60,7 +61,7 @@ function About() {
            
             <div className="w-64 h-64 sm:w-72 sm:h-72 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-2xl overflow-hidden border-2 border-cyan-400 shadow-xl relative">
               <img
-                src="../src/assets/person2.png"
+                src={person2}
                 alt="About Me"
                 className="w-full h-full object-cover "
               />

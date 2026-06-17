@@ -1,8 +1,11 @@
+import tipcalculator from "./assets/tipcalculator.png";
+import bank from "./assets/bank.png";
+import medicare from "./assets/medicare.png";
 function Projects() {
   const projects = [
     {
       title: "Tip Calculator",
-      image: "../src/assets/tipcalculator.png",
+        image: tipcalculator,
       description:
         "A responsive tip calculator built with JavaScript that calculates tip amounts and bill splitting instantly.",
       github: "https://github.com/Asadullah565/tip-calculator",
@@ -10,7 +13,7 @@ function Projects() {
     },
     {
       title: "Bank Management System",
-      image: "../src/assets/bank.png",
+         image: bank,
       description:
         "A console-based Bank Management System developed in C++ using Object-Oriented Programming concepts and file handling.",
       github: "https://github.com/Asadullah565/Bank-Management-System",
@@ -18,7 +21,7 @@ function Projects() {
     },
     {
       title: "MediCare",
-      image: "../src/assets/medicare.png",
+      image: medicare,
       description:
         "A healthcare management web application built using PHP and SQL for managing patient records and medical information.",
       github: "https://github.com/Asadullah565/MediCare-",

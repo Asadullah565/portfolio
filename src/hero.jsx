@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import { HiOutlineFolderOpen, HiDownload } from "react-icons/hi";
+import heroImage from "./assets/person1.png";
+import resume from "./assets/resume.pdf";
 
 function useTyping(words, speed = 90, pause = 1800) {
   const [text, setText] = useState("");
@@ -83,9 +85,9 @@ function Hero() {
               View Projects
             </a>
 
-            {/* Resume */}
+      
             <a
-              href="/resume.pdf"
+              href={resume}
               target="_blank"
               className="flex items-center gap-2 bg-slate-700 hover:bg-slate-600 lg:px-5 lg:py-3 px-3 py-2 rounded-lg transition lg:text-lg text-sm"
             >
@@ -108,7 +110,7 @@ function Hero() {
         <div className="flex-1 flex justify-center">
           <div className="w-72 h-72 md:w-96 md:h-96 rounded-full border-cyan-400 overflow-hidden">
             <img
-              src="../src/assets/person1.png"
+              src={heroImage}
               alt="Profile"
               className="w-full h-full object-cover"
             />
